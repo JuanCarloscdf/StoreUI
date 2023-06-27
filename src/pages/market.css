@@ -1,0 +1,54 @@
+.market_container{
+    padding: 10px;
+}
+.market_product{
+    width: 100%;
+    background-image: url("../assets/img/fondo.jpg");
+    background-size: cover;
+    background-color: black;
+
+    padding: 15px;
+    border-radius: 20px;
+}
+.market_item_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 5px 20px;
+}
+.market_input_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.market_input{
+    margin-top: 4px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 8px;
+    background-color: rgba(255, 247, 247, 0.096);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.market_submit{
+    margin-top: 20px;
+
+}
+.merket_text_area{
+    width:80%;
+    height: 80px;
+    background-color: none; 
+    color: white;
+    font-weight: bolder;
+}
+.market_textarea{
+    margin-top: 20px;
+
+}
+.market_label{
+    color: rgb(219, 241, 247);
+    font-weight: 300;
+    font-style: unset;
+}

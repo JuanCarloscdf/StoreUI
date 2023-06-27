@@ -1,0 +1,40 @@
+.login_container{
+    position: fixed;
+    top: 75px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 8px;
+    border-radius: 10px;
+    background-color: black;
+   border: 1px solid rgb(33, 148, 148);
+}
+.login_title{
+    text-align: center;
+    margin: 5px 0;
+}
+.login_link{
+    color: rgb(243, 243, 243);
+    text-align: center;
+    font-size: .8rem;
+}
+.create{
+    color: aqua;
+}
+.login_button{
+    margin-top: 15px;
+}
+.login_input{
+    height: 25px;
+    padding: 0 10px;
+}
+.login_container a {
+    cursor: pointer;
+}
+.login_msg{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color:rgb(65, 192, 186)
+}

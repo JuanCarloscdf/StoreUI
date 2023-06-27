@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100;1,200;1,500;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700;1,900&display=swap');
+*{
+  box-sizing: border-box;
+}
+:root{
+  background-color: rgb(4, 9, 15);
+  color: rgb(255, 255, 255);
+  --main-color: brown;
+  --second-color: rgb(238, 232, 220);
+  --main-bg-color: 67, 43, 0, 88;
+  --sencondary-bg-color: rgb(68, 157, 184);
+  --ligth-bg-color: rgba(37, 45, 58, 0.767);
+  --second-color-ligth:rgba(255, 255, 255, 0.671);
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  background-color: var(--main-bg-color); 
+  border-radius: 8px;
+  border: 1px solid rgb(80, 167, 207); 
+  color: rgb(255, 255, 255); 
+  font-size: 15px; 
+  padding: 10px 45px; 
+  cursor: pointer; 
+  transition: 0.3s; 
+  }
+  
+button:hover{ 
+  background-color: var(--main-bg-color);
+  border-radius: 20px; 
+  color: rgb(80, 167, 207); 
+  border: 1px solid rgb(80, 167, 207);
+  transition: 0.3s; 
+ }
+
+textarea{
+  background-color:var(--ligth-bg-color);
+  border: none;
+  color:var(--second-color);
+  border: 1px solid rgba(80, 167, 207, 0.726);
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea:focus {
+  outline: none;
+}
+p{
+  color: var(--second-color-ligth);
+}
+
+h1{
+  font-size: 3rem;
+}
+a{
+  text-decoration: none;
+}
+input{
+  background-color: var(--ligth-bg-color);
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  padding: 0 5px;
+}
+input:focus{
+  outline: none;
+}
+
